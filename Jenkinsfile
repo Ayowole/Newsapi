@@ -9,13 +9,13 @@ pipeline {
     
     stage('test') {
       steps {
-        sh 'testing...'
+        sh 'echo testing...'
       }
     }
     
     stage('deploy') {
       steps {
-        sh 'deploying...'
+        sh 'echo deploying...'
       }
     }
   }
